@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: public  
+    schema: public
+    tables:
+      - name: staff
+      - name: store
+      - name: customer
+      - name: address
+      - name: city
+      - name: country
+      - name: language
+      - name: film
+      - name: category
+      - name: film_category
+      - name: film_actor
+      - name: actor
+      - name: payment
+      - name: rental
+      - name: inventory
+

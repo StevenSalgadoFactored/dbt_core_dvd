@@ -34,5 +34,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dvd_exercise:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    staging:
       +materialized: view
+    base:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    dims:
+      +materialized: table
+    fact:
+      +materialized: table
