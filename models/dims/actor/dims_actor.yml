@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: dims_actor
+    columns:
+      - name: actor_id
+        tests:
+          - not_null

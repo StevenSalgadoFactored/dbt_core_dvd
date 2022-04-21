@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: dims_store
+    columns:
+      - name: store_id
+        tests:
+          - unique
+          - not_null
